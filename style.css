@@ -48,27 +48,28 @@ h2 {
 
 #container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 #header {
-  height: 200px;
-  padding: 50px;
+  height: 250px;
+  padding: 20px;
 }
 
 #apps {
-  height: 20px;
-  padding: 40px;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: -50px;
 }
 
 #arrow {
-  height: 15px;
-  padding: 10px;
+  padding: 100px;
+  margin-bottom: -110px;
 }
 
 #learnmore {
   height: 100px;
-  margin: 10px;
+  margin: 20px;
 }
 
 #people {
