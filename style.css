@@ -107,6 +107,12 @@ table {
   }
 }
 
+@media only screen and (max-width: 680px) {
+   h1 {
+      font-size: 2em;
+   }
+}
+
 #footer {
   clear: both;
   padding: 10px;
