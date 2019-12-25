@@ -1,10 +1,10 @@
 /* Tablet Landscape */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1240px) {
     #primary { width:67%; }
 }
 
 /* Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1240px) {
     #primary { width:100%; }
 }
 
@@ -95,6 +95,14 @@ h2 {
 
 table {
   width: 100%;
+}
+
+@media (max-width:1240px) {
+  table {
+  display: block;
+  width: 100% 
+  position: relative;
+  }
 }
 
 #footer {
