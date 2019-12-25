@@ -107,11 +107,6 @@ table {
   }
 }
 
-@media (max-width:680px) {
-  h1 {
-  font size:30px;
-  }
-
 #footer {
   clear: both;
   padding: 10px;
