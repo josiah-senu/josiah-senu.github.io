@@ -1,30 +1,60 @@
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+}
+
 body {
   background-color: #020010
 }
 
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size:100%;
+}
+
+@media (min-width: 640px) {
+  body {font-size:1rem;}
+}
+
+@media (min-width:960px) {
+  body {font-size:1.2rem;}
+}
+
+@media (min-width:1100px) {
+  body {font-size:1.5rem;}
+}
+
 p {
-  color: white !important;
-  font-family: Roboto Light !important;
+  color: white;
+  font-family: Roboto Light;
   font-size: 12px;
 }
 
 h1 {
   color: white;
-  font-family: Open Sans !important;
+  font-family: Open Sans;
   font-size: 50px;
   margin: 1;
 }
 
 h2 {
-  color: white !important;
-  font-family: Open Sans !important;
+  color: white;
+  font-family: Open Sans;
   font-size: 40px;
   margin: 5;
 }
 
 #smallprint {
-  color: white !important;
-  font-family: Roboto Light !important;
+  color: white;
+  font-family: Roboto Light;
   font-size: 20px;
 }
 
