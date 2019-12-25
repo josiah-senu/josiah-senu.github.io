@@ -64,14 +64,14 @@ h2 {
 }
 
 #header {
-  height: 250px;
+  height: 200px;
   padding: 10px;
 }
 
 
 #apps {
-  height: 90px;
-  padding: 10px;
+  height: 1px;
+  padding: 80px;
 }
 
 #arrow {
@@ -106,6 +106,60 @@ table {
   position: relative;
   }
 }
+
+a:link {
+  text-decoration: none;
+}
+
+
+.input-group-field {
+  background: none;
+  color: white;
+  width: 640px;
+  height: 20px;
+  font-family: 'Roboto', 'Open Sans', Helvetica, sans-serif;
+  font-size: 18px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.simple-subscription-form .button {
+  background: black;
+  color: white;
+  font-family: 'Roboto', 'Open Sans', Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 150px;
+  height: 38.5px;
+  text-align: center;
+  border-color: 1px white;
+
+}
+
+.simple-subscription-form .button:focus{
+    outline: white;
+    border-color: white;
+    box-shadow:0 0 5px white;
+}
+
+.input-group-field:focus{
+    outline: none;
+    border-color: white;
+    box-shadow:0 0 5px white;
+  }
+
+  @media (max-width:840px) {
+    .input-group-field, .simple-subcription-form .button {
+    display: block;
+    width: 100%
+    position: relative;
+    }
+  }
 
 #footer {
   clear: both;
