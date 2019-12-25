@@ -107,11 +107,9 @@ table {
   }
 }
 
-@media (max-width:670px) {
-  #header {
-  display: block;
-  width: 100%
-  position: relative;
+@media (max-width:680px) {
+  h1 {
+  font size:30px;
   }
 
 #footer {
