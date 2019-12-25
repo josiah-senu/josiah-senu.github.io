@@ -107,7 +107,7 @@ table {
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media screen and (max-width: 680px) {
    h1 {
       font-size: 4vw;
    }
