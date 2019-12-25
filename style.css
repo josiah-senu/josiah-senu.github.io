@@ -95,13 +95,6 @@ table {
   }
 }
 
-  @media (min-width:320px) {
-  table {
-  display: block;
-  width: 100%
-  position: relative;
-  }
-
 a:link {
   text-decoration: none;
 }
