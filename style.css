@@ -41,7 +41,7 @@ p {
 h1 {
   color: white;
   font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   margin: 1;
 }
 
@@ -107,11 +107,6 @@ table {
   }
 }
 
-@media screen and (max-width: 680px) {
-   h1 {
-      font-size: 4vw;
-   }
-}
 
 #footer {
   clear: both;
