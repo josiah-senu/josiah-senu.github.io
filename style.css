@@ -60,7 +60,7 @@ h2 {
 
 #container {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 #header {
@@ -69,8 +69,8 @@ h2 {
 }
 
 #apps {
-  height: 1px;
-  padding: 80px;
+  height: 20px;
+  padding: 40px;
 }
 
 #arrow {
@@ -79,7 +79,7 @@ h2 {
 }
 
 #learnmore {
-  height: 70px;
+  height: 100px;
   margin: 10px;
 }
 
@@ -110,6 +110,7 @@ a:link {
   text-decoration: none;
 }
 
+/*
 
 .input-group-field {
   background: none;
@@ -164,6 +165,8 @@ a:link {
     position: relative;
     }
   }
+
+*/
 
 #footer {
   clear: both;
