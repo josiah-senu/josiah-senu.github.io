@@ -95,6 +95,27 @@ table {
   }
 }
 
+@media (max-width:760px) {
+  table {
+  display: block;
+  width: 100%
+  position: relative;
+  }
+
+@media (max-width:580px) {
+    table {
+    display: block;
+    width: 100%
+    position: relative;
+    }
+
+  @media (max-width:320px) {
+    table {
+    display: block;
+    width: 100%
+    position: relative;
+      }
+
 a:link {
   text-decoration: none;
 }
