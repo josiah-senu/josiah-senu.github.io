@@ -34,33 +34,33 @@ html {
 
 p {
   color: white;
-  font-family: Roboto Light;
+  font-family: Roboto, Open Sans, Helvetica, sans-serif;
   font-size: 12px;
 }
 
 h1 {
   color: white;
-  font-family: Open Sans;
+  font-family: Open Sans, Helvetica, sans-serif;
   font-size: 50px;
   margin: 1;
 }
 
 h2 {
   color: white;
-  font-family: Open Sans;
+  font-family: Open Sans, Helvetica, sans-serif;
   font-size: 40px;
   margin: 5;
 }
 
 #smallprint {
   color: white;
-  font-family: Roboto Light;
+  font-family: Roboto, Open Sans, Helvetica, sans-serif;
   font-size: 20px;
 }
 
 #question {
   color: #c8a2c8;
-  font-family: Open Sans !important;
+  font-family: Open Sans, Helvetica, sans-serif;
   font-size: 50px;
   margin-top: -100px;
   padding-left: 650px;
@@ -101,38 +101,9 @@ h2 {
   padding: 10px;
 }
 
-#instruction1 {
-  padding-left: 110px;
-  float: left;
-}
-
-#instruction2 {
-  padding-right: 300px;
-  float: center;
-}
-
-#instruction3 {
-  padding-right: 110px;
-  float: right;
-  margin-top: -70px;
-}
-
-#instruction1a {
-  padding-left: 130px;
-  float: left;
-  margin-top: -40px;
-}
-
-#instruction2a {
-  padding-right: 300px;
-  float: center;
-  margin-top: -20px;
-}
-
-#instruction3a {
-  padding-right: 107px;
-  float: right;
-  margin-top: -70px;
+table {
+  margin-left: 100px;
+  width: 1040px;
 }
 
 #footer {
