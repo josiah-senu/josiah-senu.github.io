@@ -96,7 +96,7 @@ h2 {
 
 table {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 @media (max-width:1240px) {
@@ -106,7 +106,6 @@ table {
   position: relative;
   }
 }
-
 
 #footer {
   clear: both;
